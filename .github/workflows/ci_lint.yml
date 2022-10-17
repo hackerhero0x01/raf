@@ -18,7 +18,7 @@ defaults:
 
 jobs:
   lint:
-    if: github.repository == 'awslabs/raf'
+    if: github.repository == 'hackerhero0x01/raf'
     runs-on: ubuntu-latest
     container:
         image: metaprojdev/raf:ci_cpu-v0.19
